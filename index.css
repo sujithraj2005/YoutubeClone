@@ -58,6 +58,16 @@ body{
     .allbox{
         grid-template-columns: 1fr ;
     }
+
+    .sidebar
+    {
+        display: none;
+    }
+
+    .allbox
+    {
+        padding-left: 30px;
+    }
 }
 
 @media (min-width : 501px) and ( max-width : 750px){
@@ -329,4 +339,3 @@ body{
 .searchlogo:hover .tool-tip , .voice:hover .tool-tip , .plus:hover .tool-tip, .grid1:hover .tool-tip, .profile1:hover .tool-tip{
     opacity: 1;
 }
-
